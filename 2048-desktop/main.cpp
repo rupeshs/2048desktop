@@ -20,9 +20,12 @@
 */
 
 #include <QtGui/QApplication>
-#include <gameview.h>
 #include <html5applicationviewer.h>
-#include <QMouseEvent>
+#include <QGraphicsWebView>
+#include <QWebSettings>
+#include <QDesktopServices>
+#include <QDebug>
+
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
