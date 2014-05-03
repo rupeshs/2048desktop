@@ -115,3 +115,10 @@ Grid.prototype.serialize = function () {
     cells: cellState
   };
 };
+
+function showGrid()
+{
+    document.getElementById("game-con-id").style.display="block";
+     document.getElementById("restart-button-id").style.display="block";
+    document.getElementById("start-button-id").style.display="none";
+}

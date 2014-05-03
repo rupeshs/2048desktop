@@ -1,10 +1,15 @@
-@import url(fonts/clear-sans.css);
+@font-face
+{
+font-family: 'Play2048';
+font-style: normal;
+src:  url('../style/fonts/Play-Regular.ttf') format('truetype');
+}
 html, body {
   margin: 0;
   padding: 0;
   background: #ffffff;
-  color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #111;
+  font-family: "Play2048";
   font-size: 18px; }
 
 body {
@@ -138,7 +143,8 @@ hr {
   100% {
     opacity: 1; } }
 .game-container {
-   box-shadow:0 0 20px #444;
+   box-shadow:0 0 30px #222;
+
 
   margin-top: 40px;
   position: relative;
@@ -489,17 +495,38 @@ hr {
   margin-bottom: 0; }
 
 .restart-button {
+ box-shadow:0 0 5px #444;
+  cursor :pointer;
   display: inline-block;
-  background: #8f7a66;
+  background: #5cb85c;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 10px 20px;
   text-decoration: none;
   color: #f9f6f2;
   height: 40px;
   line-height: 42px;
   display: block;
   text-align: center;
-  float: right; }
+  float: right;
+
+}
+.start-button {
+   box-shadow:0 0 10px #444;
+  cursor :pointer;
+  display: inline-block;
+  background: #5cb85c;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  text-align: center;
+
+
+}
+
+
 
 .game-explanation {
   margin-top: 50px; }
@@ -520,15 +547,21 @@ hr {
     width: 280px;
     margin: 0 auto; }
 
-  .score-container, .best-container {
+  .score-container {
     margin-top: 0;
     padding: 15px 10px;
     min-width: 40px; }
+     .best-container {
+     background-color:#AC8F03;
+      margin-top: 0;
+      padding: 15px 10px;
+      min-width: 40px; }
 
   .heading {
     margin-bottom: 10px; }
 
   .game-intro {
+
     width: 55%;
     display: block;
     box-sizing: border-box;

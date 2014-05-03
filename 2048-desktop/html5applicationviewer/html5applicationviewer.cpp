@@ -1084,7 +1084,6 @@ Html5ApplicationViewerPrivate::Html5ApplicationViewerPrivate(QWidget *parent)
     m_webView->setAcceptTouchEvents(true);
     m_webView->setAcceptHoverEvents(false);
     setAttribute(Qt::WA_AcceptTouchEvents, true);
-
     scene->addItem(m_webView);
     scene->setActiveWindow(m_webView);
 #ifdef TOUCH_OPTIMIZED_NAVIGATION
