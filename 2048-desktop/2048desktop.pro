@@ -31,7 +31,7 @@ include(html5applicationviewer/html5applicationviewer.pri)
 qtcAddDeployment()
 
 HEADERS += \
-    html5applicationviewer/WinVersion.h
+    WinVersion.h
 
 FORMS +=
 

@@ -1,6 +1,8 @@
-/*  2048 Desktop
+/*
+    2048 Desktop
     Copyright (C) 2014 Rupesh Sreeraman
     Based on 2048 By Gabriele Cirulli
+    http://gabrielecirulli.github.io/2048/
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
